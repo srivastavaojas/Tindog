@@ -1,0 +1,181 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+/* Title section */
+
+.container-fluid{
+  padding: 3% 15% 8%;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.title-button{
+  padding-left: 5%;
+  padding-bottom: 10%;
+  color: #ef8172;
+  padding-top: 10%;
+}
+
+.title-button:hover{
+  color: #ff4c68;
+}
+
+/* Feature section */
+
+#features{
+  padding: 10% 25%;
+  background-color: #fff;
+  position: relative;
+}
+
+.features-text{
+  font-size: 1.5rem;
+}
+
+.features{
+  color: #8f8f8f;
+}
+
+/* Testimonial section */
+
+#testimonials{
+  padding: 3% 25%;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-heading{
+  font-size: 1.5rem;
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* cta section */
+
+#cta{
+  background-color: #ff4c68;
+}
+
+.heading-text{
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #fff;
+  font-size: 3rem;
+  padding: 4% 10%;
+  line-height: 1.5;
+}
+
+.button1{
+  margin: 30px 2% 2% 0;
+}
+
+/* Footer Section */
+
+#footer{
+  background-color: #fff;
+}
+
+.button2{
+  margin: 10% 1% 0 2%;
+}
+
+.copyright{
+  color: #8f8f8f;
+  margin-top: 30px;
+}
+
+/* Media Section */
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  .heading-text{
+    text-align: center;
+  }
+}
